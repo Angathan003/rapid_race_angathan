@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_april_12.rapid_race_angathan.UpdateHorseDetails">
+    <children>
+        <Label prefHeight="39.0" prefWidth="600.0" text="Update Horse Details" textAlignment="RIGHT">
+            <font>
+                <Font name="System Bold" size="29.0" />
+            </font>
+        </Label>
+        <Button layoutX="152.0" layoutY="361.0" mnemonicParsing="false" onAction="#checkHorseId" text="Check" />
+        <Button fx:id="updateButton" disable="true" layoutX="263.0" layoutY="361.0" mnemonicParsing="false" text="Update Details" />
+
+        <Label layoutX="51.0" layoutY="72.0" text="Horse ID" />
+        <Label layoutX="51.0" layoutY="107.0" text="Horse Name" />
+        <Label layoutX="51.0" layoutY="141.0" text="Jockey Name" />
+        <Label layoutX="51.0" layoutY="179.0" text="Age" />
+        <Label layoutX="51.0" layoutY="223.0" text="Breed" />
+        <Label layoutX="51.0" layoutY="259.0" text="Race Record" />
+        <Label layoutX="51.0" layoutY="291.0" text="Group" />
+        <Label layoutX="54.0" layoutY="333.0" text="Image" />
+
+        <TextField fx:id="horseIdField" layoutX="152.0" layoutY="68.0" />
+        <TextField disable="true" layoutX="152.0" layoutY="103.0" />
+        <TextField disable="true" layoutX="152.0" layoutY="137.0" />
+        <TextField disable="true" layoutX="152.0" layoutY="175.0" />
+        <TextField disable="true" layoutX="152.0" layoutY="219.0" />
+        <TextField disable="true" layoutX="152.0" layoutY="255.0" />
+        <Button disable="true" layoutX="149.0" layoutY="329.0" mnemonicParsing="false" text="Browse" />
+
+        <ChoiceBox disable="true" layoutX="152.0" layoutY="287.0" prefWidth="150.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="A" />
+                    <String fx:value="B" />
+                    <String fx:value="C" />
+                    <String fx:value="D" />
+                </FXCollections>
+            </items>
+        </ChoiceBox>
+    </children>
+</AnchorPane>

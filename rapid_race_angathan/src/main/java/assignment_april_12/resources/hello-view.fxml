@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="assignment_april_12.rapid_race_angathan.HorseController">
+    <Label fx:id="welcomeText" text="Welcome to Rapid Race Horse Event!" />
+
+    <Button fx:id="startButton" text="Start" onAction="#onStartButtonClick" />
+
+    <VBox fx:id="buttonBox" spacing="10">
+        <Button fx:id="addHorseButton" onAction="#showAddHorse" text="Add Horse" />
+        <Button fx:id="updateHorseButton" text="Update Horse" />
+        <Button fx:id="deleteHorseButton" text="Delete Horse" />
+        <Button fx:id="viewHorsesButton" text="View Horses" />
+        <Button fx:id="saveToFileButton" text="Save to File" />
+        <Button fx:id="loadFromFileButton" text="Load from File" />
+        <Button fx:id="selectHorsesForRaceButton" text="Select Horses for Race" />
+        <Button fx:id="simulateRaceButton" text="Simulate Race" />
+        <Button fx:id="visualizeWinningHorsesButton" text="Visualize Winning Horses" />
+    </VBox>
+</VBox>

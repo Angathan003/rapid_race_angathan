@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_april_12.rapid_race_angathan.StartRace">
+    <children>
+        <AnchorPane layoutY="63.0" prefHeight="338.0" prefWidth="193.0">
+            <children>
+                <Button layoutX="46.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="SHR" />
+                <Button layoutX="46.0" layoutY="53.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="WHD" />
+                <Button layoutX="46.0" layoutY="102.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="VWH" />
+                <Button layoutX="46.0" layoutY="144.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="END" />
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="192.0" layoutY="63.0" prefHeight="338.0" prefWidth="408.0">
+            <children>
+                <Label layoutX="115.0" layoutY="14.0" prefHeight="60.0" prefWidth="293.0" text="Start Race">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Label>
+                <Label layoutX="81.0" layoutY="74.0" prefHeight="17.0" prefWidth="305.0" text="Please select the race mode">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="176.0" prefHeight="60.0" prefWidth="600.0" text="Race">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

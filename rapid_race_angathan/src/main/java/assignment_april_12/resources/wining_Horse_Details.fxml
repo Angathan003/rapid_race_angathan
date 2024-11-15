@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_april_12.rapid_race_angathan.WinningHorseDetails">
+    <children>
+        <Label layoutX="190.0" layoutY="14.0" prefHeight="60.0" prefWidth="299.0" text="Winning Horse Details">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+
+        <TableView fx:id="winningHorseTableView" layoutY="78.0" prefHeight="245.0" prefWidth="793.0">
+            <columns>
+                <TableColumn text="Place" />
+<!--                <TableColumn text="Image">-->
+<!--                    <cellValueFactory>-->
+<!--                        <PropertyValueFactory property="horseImage" />-->
+<!--                    </cellValueFactory>-->
+<!--                    <cellFactory>-->
+<!--                        <ImageViewTableCellFactory />-->
+<!--                    </cellFactory>-->
+<!--                </TableColumn>-->
+                <TableColumn text="Horse ID" />
+                <TableColumn text="Horse Name" />
+                <TableColumn text="Jockey Name" />
+                <TableColumn text="Age" />
+                <TableColumn text="Breed" />
+                <TableColumn text="Race Record" />
+                <TableColumn text="Group" />
+                <TableColumn text="Time" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

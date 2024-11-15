@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_april_12.rapid_race_angathan.Main">
+   <children>
+      <AnchorPane layoutY="63.0" prefHeight="338.0" prefWidth="193.0">
+         <children>
+            <Button layoutX="46.0" layoutY="14.0" mnemonicParsing="false" onAction="#showAHD" prefHeight="25.0" prefWidth="89.0" text="AHD" />
+            <Button layoutX="46.0" layoutY="102.0" mnemonicParsing="false" onAction="#showUHD" prefHeight="25.0" prefWidth="89.0" text="UHD" />
+            <Button layoutX="46.0" layoutY="53.0" mnemonicParsing="false" onAction="#showDHD" prefHeight="25.0" prefWidth="89.0" text="DHD" />
+            <Button layoutX="46.0" layoutY="144.0" mnemonicParsing="false" onAction="#showVHD" prefHeight="25.0" prefWidth="89.0" text="VHD" />
+            <Button layoutX="46.0" layoutY="195.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="89.0" text="SHD" />
+            <Button layoutX="46.0" layoutY="283.0" mnemonicParsing="false" onAction="#endApplication" prefHeight="25.0" prefWidth="89.0" text="END" />
+            <Button layoutX="46.0" layoutY="236.0" mnemonicParsing="false" onAction="#startApplication" prefHeight="25.0" prefWidth="89.0" text="START" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="contentPane" layoutX="192.0" layoutY="63.0" prefHeight="338.0" prefWidth="408.0">
+         <children>
+            <Label layoutX="115.0" layoutY="14.0" prefHeight="60.0" prefWidth="293.0" text="WelCome">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="81.0" layoutY="74.0" prefHeight="17.0" prefWidth="305.0" text="Please select the button">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="164.0" prefHeight="60.0" prefWidth="249.0" text="Horse Race">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>

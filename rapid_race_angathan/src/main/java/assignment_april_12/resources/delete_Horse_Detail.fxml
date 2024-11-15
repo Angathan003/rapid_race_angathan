@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_april_12.rapid_race_angathan.DeleteHorseDetails">
+    <children>
+        <Label prefHeight="39.0" prefWidth="400.0" text="Delete Horse Details" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+
+        <Label layoutX="58.0" layoutY="80.0" text="Enter Horse ID:" />
+
+        <TextField fx:id="horseIdField" layoutX="178.0" layoutY="76.0" />
+
+        <Button layoutX="129.0" layoutY="132.0" mnemonicParsing="false" onAction="#checkHorseId" text="Check" />
+
+        <Button fx:id="deleteButton" disable="true" layoutX="200.0" layoutY="132.0" mnemonicParsing="false" onAction="#deleteHorse" text="Delete" />
+    </children>
+</AnchorPane>

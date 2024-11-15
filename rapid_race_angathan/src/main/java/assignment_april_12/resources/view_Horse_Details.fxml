@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_april_12.rapid_race_angathan.ViewHorseDetails">
+    <children>
+        <Label prefHeight="39.0" prefWidth="800.0" text="View Horse Details" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+
+        <TableView fx:id="horseTableView" layoutX="30.0" layoutY="80.0" prefHeight="260.0" prefWidth="642.0">
+            <columns>
+                <TableColumn text="Image">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="horseImage" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Horse ID" />
+                <TableColumn text="Horse Name" />
+                <TableColumn text="Jockey Name" />
+                <TableColumn text="Age" />
+                <TableColumn text="Breed" />
+                <TableColumn text="Race Record" />
+                <TableColumn text="Group" />
+            </columns>
+        </TableView>
+
+        <Button layoutX="470.0" layoutY="350.0" mnemonicParsing="false" onAction="#refreshTable" text="Refresh" />
+    </children>
+</AnchorPane>
